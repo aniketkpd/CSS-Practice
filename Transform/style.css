@@ -1,0 +1,27 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.div
+{
+    /* setting background color */
+    background-color: cadetblue;
+
+    /* setting border */
+    border: 3px solid black;
+
+    /* setting content area */
+    height: 100px;
+    width: 100px;
+
+    /* setting margin */
+    margin-left: 500px;
+    margin-top: 200px;
+
+    /* setting transform property */
+    /* transform: translate(200px,200px); */
+    /* transform: rotate(90deg); */
+    /* transform: scale(2); */
+}

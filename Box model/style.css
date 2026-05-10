@@ -1,0 +1,73 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.content1
+{   
+    /* setting border */
+    border-width: 50px;
+    border-style: solid;
+    border-color: brown;
+
+    /* setting border radius */
+    border-radius: 20px;
+
+    /* Setting div element to inline */
+    display: inline-block;
+
+
+    /* Setting margin for all sides :  */
+    margin: 100px;
+
+    /* Setting margin for different sides */
+    /* margin-left: 10px;
+    margin-top: 30px;
+    margin-right: 60px;
+    margin-bottom: 100px; */
+
+
+    /* setting padding for all sides: - Perfect / Common padding way */
+    padding: 100px;
+
+    /* setting padding for different sides */
+    /* padding-left: 10px;
+    padding-top: 30px;
+    padding-right: 60px;
+    padding-bottom: 100px; */
+
+}
+
+
+span
+{
+    /* setting border */
+    border-width: 50px;
+    border-style: solid;
+    border-color: brown;
+
+    /* setting border radius */
+    border-radius: 20px;
+
+    /* setting padding */
+    padding: 100px;
+
+}
+
+
+.content2
+{
+    /* setting border */
+    border-width: 10px;
+    border-style: solid;
+    border-color: brown;
+
+    /* setting border radius */
+    border-radius: 20px;
+
+    /* Others */
+    text-align: center;
+    padding: 20px;
+
+}

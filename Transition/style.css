@@ -1,0 +1,50 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+div
+{
+    display: inline-block;
+    /* setting content area */
+    height: 100px;
+    width: 300px;
+
+    /* setting background color */
+    background-color: cyan;
+
+    /* setting border */
+    border-width: 3px;
+    border-style: dashed;
+    border-color: black;
+
+    /* setting border radius */
+    border-radius: 20px;
+
+    /* setting margin */
+    margin: 50px;
+
+    /* applying transition */
+    transition-delay: 0;
+    transition-duration: 3s;
+    transition-property: width;
+    /* transition-property: transform; */
+    transition-timing-function: ease-in-out;
+
+    /* text-align: center; */
+    padding: 100px;
+}
+
+div:hover
+{
+    width: 700px;
+    /* transform: rotate(180deg); */
+}
+
+p
+{
+    height: 100px;
+    width: 300px;
+    background-color: blue;
+}

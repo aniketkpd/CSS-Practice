@@ -1,0 +1,21 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+div
+{
+    /* setting background color */
+    background-color: aqua;
+
+    /* setting height , min height , max-height */
+    /* height: 200px;
+    min-height: 150px;
+    max-height: 300px; */
+
+    /* setting min width and maz width */
+    width: 600px;
+    min-width: 500px;
+    max-width: 700px;
+}

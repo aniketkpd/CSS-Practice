@@ -1,0 +1,56 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+@keyframes myBox 
+{
+    from
+    {
+        /* height: 100px;
+        width: 300px; */
+        background-color: cyan;
+        transform: rotate(0deg);
+    }   
+    to
+    {
+        /* height: 500px;
+        width: 800px; */
+        background-color: red;
+        transform: rotate(18000000000deg);
+    } 
+}
+
+div
+{
+    /* setting content area */
+    height: 100px;
+    width: 100px;
+
+    /* setting background color */
+    background-color: cyan;
+
+    /* setting border */
+    border-width: 3px;
+    border-style: dashed;
+    border-color: black;
+
+    /* setting border radius */
+    border-radius: 50px;
+
+    /* setting margin */
+    margin: 40px;
+
+    /* applying animations */
+    animation-name: myBox;
+    animation-duration: 3s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 0s;
+    animation-iteration-count:infinite;
+    animation-direction: normal;
+    /* animation-direction:alternate; */
+
+
+}

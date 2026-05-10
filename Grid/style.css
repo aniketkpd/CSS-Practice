@@ -1,0 +1,70 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+.myGrid
+{
+
+    /* initializing grid */
+    display: grid;
+    
+    /* setting background color for the grid */
+    background-color: yellow;
+    
+    /* setting border */
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+
+    /* setting margin */
+    margin: 5px;
+
+    /* Specifying content area for the grid */
+    /* min-height: 500px; */
+    height: 500px;
+    /* max-height: 500px; */
+
+
+    /* applying grid parent properties */
+    grid-row-gap: 10px;
+
+    grid-template-columns: 100px 100px auto;
+    /* grid-template-rows: 100px 100px auto; */
+
+    grid-column-gap: 30px;
+
+    /* justify-content: center; */
+    /* align-content: center; */
+
+    /* Should not be used */
+    /* align-items: center; */
+
+
+
+}
+
+.gridItems
+{
+
+    /* setting border */
+    border-width: 3px;
+    border-style: solid;
+    border-color: black;
+
+    /* setting padding for grid items : makes it strech by increasing space as well as height of each item*/
+    padding: 10px;
+
+    /* setting height for each item: makes it strech the spaces between boxes  */ 
+    /* height: 3px; */
+    
+    /* setting background color  */
+    background-color: blue;
+
+
+    /* applying grid item properties */
+    /* grid-column: 1 span 3; */
+
+}
